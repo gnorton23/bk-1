@@ -1,5 +1,4 @@
 steps:
-  - command: echo "Looking for clowns..."
-    plugins:
-      - https://github.com/gnorton23/detect-clowns-buildkite-plugin.git#v2.0.0: ~
+  - plugins:
+      - https://github.com/gnorton23/detect-clowns-buildkite-plugin.git#v0.0.1: ~
 
