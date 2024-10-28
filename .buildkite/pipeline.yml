@@ -1,4 +1,5 @@
 steps:
-  - plugins:
+  - command: echo "Clown detector activate!"
+    plugins:
       - https://github.com/gnorton23/detect-clowns-buildkite-plugin.git#v0.0.1: ~
 
